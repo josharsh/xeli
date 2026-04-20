@@ -1,0 +1,31 @@
+id,name,city,department,salary,start_date,is_active
+1,Alice Johnson,New York,Engineering,95000,2020-03-15,true
+2,Bob Smith,San Francisco,Marketing,78000,2019-07-22,true
+3,Carol Williams,Chicago,Engineering,105000,2018-01-10,true
+4,David Brown,New York,Sales,67000,2021-06-01,false
+5,Eve Davis,San Francisco,Engineering,112000,2017-09-14,true
+6,Frank Miller,Chicago,Marketing,72000,2022-02-28,true
+7,Grace Wilson,New York,Engineering,98000,2020-11-05,true
+8,Henry Moore,San Francisco,Sales,71000,2019-04-18,false
+9,Ivy Taylor,Chicago,Engineering,108000,2018-08-23,true
+10,Jack Anderson,New York,Marketing,82000,2021-01-12,true
+11,Kate Thomas,San Francisco,Engineering,115000,2017-03-30,true
+12,Liam Jackson,Chicago,Sales,69000,2022-07-15,true
+13,Mia White,New York,Engineering,101000,2019-12-01,true
+14,Noah Harris,San Francisco,Marketing,76000,2020-05-20,false
+15,Olivia Martin,Chicago,Engineering,110000,2018-06-08,true
+16,Peter Garcia,New York,Sales,73000,2021-09-25,true
+17,Quinn Martinez,San Francisco,Engineering,118000,2017-11-17,true
+18,Rachel Robinson,Chicago,Marketing,80000,2022-04-03,true
+19,Sam Clark,New York,Engineering,97000,2019-02-14,true
+20,Tina Rodriguez,San Francisco,Sales,70000,2020-08-30,false
+21,Ulysses Lee,Chicago,Engineering,103000,2018-10-22,true
+22,Victoria Walker,New York,Marketing,85000,2021-03-09,true
+23,Walter Hall,San Francisco,Engineering,120000,2017-06-25,true
+24,Xena Allen,Chicago,Sales,68000,2022-01-18,true
+25,Yuri Young,New York,Engineering,99000,2019-09-07,true
+26,Zara Hernandez,San Francisco,Marketing,77000,2020-12-14,true
+27,Aaron King,Chicago,Engineering,107000,2018-04-01,false
+28,Bella Wright,New York,Sales,72000,2021-07-23,true
+29,Carlos Lopez,San Francisco,Engineering,113000,2017-08-11,true
+30,Diana Hill,Chicago,Marketing,83000,2022-05-28,true
