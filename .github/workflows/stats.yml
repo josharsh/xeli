@@ -1,0 +1,29 @@
+name: Download stats
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # 14:00 UTC daily = 7am PT / 10am ET
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Print stats
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          chmod +x scripts/xeli-stats.sh
+          ./scripts/xeli-stats.sh
+
+      - name: Post to Slack (if configured)
+        if: ${{ env.SLACK_WEBHOOK != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        run: ./scripts/xeli-stats.sh --slack
