@@ -16,4 +16,4 @@ targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "aarch64-unknown-linux
 # A GitHub repo to push Homebrew formulas to
 tap = "josharsh/homebrew-tap"
 # Publish jobs to run in CI
-publish-jobs = ["homebrew"]
+publish-jobs = ["homebrew", "npm"]
