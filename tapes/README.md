@@ -69,7 +69,7 @@ Suggested embeds:
 - **Twitter thread tweet 1** — `out/hero.gif` (or `out/ai.gif` if leading with AI)
 - **Twitter thread tweet 2** — `out/stills/02-ai-bar.png`
 - **Twitter thread tweet 3** — `out/stills/03-groupby-pick.png`
-- **xeli.vercel.app hero** — `out/hero.gif` (replace the ASCII placeholder block in `website/app/page.tsx`)
+- **xeli.josharsh.com hero** — `out/hero.gif` (replace the ASCII placeholder block in `website/app/page.tsx`)
 - **Product Hunt gallery** — all 6 PNGs from `out/stills/`
 
 ## Tip: trim GIFs for Twitter
