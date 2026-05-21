@@ -11,7 +11,7 @@
 Open CSV, JSON, Parquet, and Excel files in a fast TUI spreadsheet. Filter, sort, pivot, and export visually. Ask questions in plain English and let `xeli` write the SQL.
 
 <p align="center">
-  <img src="docs/hero.png" alt="xeli: stop opening Google Sheets to count rows" width="900">
+  <img src="docs/terminal.png" alt="xeli TUI showing employees.csv with the AI bar and NORMAL mode line" width="900">
 </p>
 
 ## Try it without installing
