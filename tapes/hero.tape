@@ -1,11 +1,12 @@
 # hero.tape — the 15-second landing GIF for the README + Twitter.
 #
-# Story: open the file picker, fuzzy-find the sample, navigate, run the
-# group-by wizard, see the answer. No AI in this tape — fully deterministic,
-# no API key required.
+# Story: open a CSV → navigate → sort by salary DESC → group-by wizard
+# (department × AVG(salary)) → see the result. No AI in this tape —
+# fully deterministic, no API key required.
 #
 # Render:
-#   cd /Users/josharsh/Development/pipemagic
+#   cd /Users/josharsh/Development/xeli
+#   cargo build --release
 #   vhs tapes/hero.tape          # writes tapes/out/hero.gif
 
 Output tapes/out/hero.gif
@@ -24,34 +25,26 @@ Set Shell zsh
 
 # Use the freshly built binary, not whatever's in PATH
 Hide
-Type "cd /Users/josharsh/Development/pipemagic && clear"
+Type "cd /Users/josharsh/Development/xeli && clear"
 Enter
 Sleep 500ms
 Show
 
-# Open with no args → file picker
-Type "./target/release/xeli"
+# Open the sample CSV directly
+Type "./target/release/xeli examples/employees.csv"
 Sleep 300ms
 Enter
-Sleep 1500ms
-
-# Fuzzy-search the sample
-Type "empl"
-Sleep 1s
-
-# Open it
-Enter
-Sleep 1500ms
+Sleep 1800ms
 
 # Quick tour: move down, right, scroll a page
 Type "jjjjj"
-Sleep 400ms
+Sleep 500ms
 Type "lll"
-Sleep 400ms
+Sleep 500ms
 Ctrl+d
-Sleep 600ms
+Sleep 700ms
 Ctrl+u
-Sleep 400ms
+Sleep 500ms
 
 # Sort the salary column descending — first go to it
 Type "ll"

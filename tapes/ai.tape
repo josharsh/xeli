@@ -8,7 +8,7 @@
 # key before rendering:
 #
 #   export ANTHROPIC_API_KEY=sk-ant-...
-#   cd /Users/josharsh/Development/pipemagic
+#   cd /Users/josharsh/Development/xeli
 #   vhs tapes/ai.tape          # writes tapes/out/ai.gif
 #
 # If you don't want to spend real tokens, set OPENAI_API_KEY pointing at a
@@ -29,7 +29,7 @@ Set TypingSpeed 50ms
 Set Shell zsh
 
 Hide
-Type "cd /Users/josharsh/Development/pipemagic && clear"
+Type "cd /Users/josharsh/Development/xeli && clear"
 Enter
 Sleep 400ms
 Show

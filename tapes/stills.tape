@@ -5,7 +5,7 @@
 # vhs's `Screenshot` directive writes a PNG of the current frame.
 #
 # Render:
-#   cd /Users/josharsh/Development/pipemagic
+#   cd /Users/josharsh/Development/xeli
 #   vhs tapes/stills.tape       # writes screenshots into tapes/out/stills/
 
 Output tapes/out/stills/_dummy.gif    # vhs requires an Output even when we only want stills
@@ -20,7 +20,7 @@ Set Framerate 30
 Set Shell zsh
 
 Hide
-Type "cd /Users/josharsh/Development/pipemagic && clear"
+Type "cd /Users/josharsh/Development/xeli && clear"
 Enter
 Sleep 400ms
 Show

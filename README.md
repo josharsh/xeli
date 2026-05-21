@@ -10,21 +10,9 @@
 
 Open CSV, JSON, Parquet, and Excel files in a beautiful TUI spreadsheet. Query data with natural language (AI → SQL), filter / sort / pivot visually, and export results — all from your terminal.
 
-```
-┌─ xeli  CSV  employees.csv  │ 30r × 7c ────────────────────────────────────────┐
-│ R1/30   C3/7   ● Dracula                                                      │
-│        id    name           city            department    salary  start_date  │
-│      ▶ 1     Alice Johnson  New York        Engineering   95000   2020-03-15  │
-│        2     Bob Smith      San Francisco   Marketing     78000   2019-07-22  │
-│        3     Carol Williams Chicago         Engineering   105000  2018-01-10  │
-│        ...                                                                     │
-│                                                                                │
-│  AI ▌ show me top 5 cities by total revenue for active customers_              │
-│                                                                                │
-│  NORMAL   R1/30  C3/7  Dracula                                                 │
-│  Ctrl+K AI · Ctrl+Q SQL · / find · f filter · s sort · g group · ? help · q   │
-└────────────────────────────────────────────────────────────────────────────────┘
-```
+<p align="center">
+  <img src="tapes/out/hero.gif" alt="xeli demo — open a CSV, navigate, sort, and group-by in the terminal" width="800">
+</p>
 
 ## Try it without installing
 

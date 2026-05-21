@@ -19,7 +19,7 @@ brew install --cask font-jetbrains-mono-nerd-font
 Also make sure xeli is built:
 
 ```bash
-cd /Users/josharsh/Development/pipemagic
+cd /Users/josharsh/Development/xeli
 cargo build --release
 ```
 
@@ -35,7 +35,7 @@ cargo build --release
 ## Render everything
 
 ```bash
-cd /Users/josharsh/Development/pipemagic
+cd /Users/josharsh/Development/xeli
 
 # Deterministic tapes (no API calls, free, repeatable)
 vhs tapes/hero.tape

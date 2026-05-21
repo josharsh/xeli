@@ -4,7 +4,7 @@
 # Story: filter → search → join. No AI in this tape — deterministic.
 #
 # Render:
-#   cd /Users/josharsh/Development/pipemagic
+#   cd /Users/josharsh/Development/xeli
 #   vhs tapes/features.tape    # writes tapes/out/features.gif
 
 Output tapes/out/features.gif
@@ -21,7 +21,7 @@ Set TypingSpeed 50ms
 Set Shell zsh
 
 Hide
-Type "cd /Users/josharsh/Development/pipemagic && clear"
+Type "cd /Users/josharsh/Development/xeli && clear"
 Enter
 Sleep 400ms
 Show
