@@ -4,6 +4,12 @@ All notable changes to xeli are documented here. Format follows [Keep a Changelo
 
 ## [Unreleased]
 
+## [0.1.3] — 2026-05-21
+
+### Changed
+- Republishing release after the old GitHub repo was deleted and recreated. `@josharsh/xeli@0.1.2` and `josharsh/homebrew-tap` Formula/xeli.rb both pointed to release artifacts that no longer existed. 0.1.3 is byte-identical code, fresh artifacts.
+- `dist-workspace.toml`: added `npm` to `publish-jobs` so the npm registry is updated as part of every tagged release.
+
 ## [0.1.2] — 2026-05-20
 
 ### Added
@@ -35,7 +41,8 @@ All notable changes to xeli are documented here. Format follows [Keep a Changelo
 - Command palette (`Ctrl+P`), full undo stack (`u`).
 - Per-platform binaries via cargo-dist: macOS arm64/x86_64, Linux arm64/x86_64.
 
-[Unreleased]: https://github.com/josharsh/xeli/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/josharsh/xeli/compare/v0.1.3...HEAD
+[0.1.3]: https://github.com/josharsh/xeli/compare/v0.1.2...v0.1.3
 [0.1.2]: https://github.com/josharsh/xeli/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/josharsh/xeli/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/josharsh/xeli/releases/tag/v0.1.0
