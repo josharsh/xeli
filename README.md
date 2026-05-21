@@ -16,7 +16,7 @@ Open CSV, JSON, Parquet, and Excel files in a fast TUI spreadsheet. Filter, sort
 
 ## Try it without installing
 
-→ **[xeli.vercel.app/playground](https://xeli.vercel.app/playground)**
+→ **[xeli.josharsh.com/playground](https://xeli.josharsh.com/playground)**
 
 DuckDB-WASM in your browser. Drop a CSV, ask a question, nothing leaves the tab.
 
